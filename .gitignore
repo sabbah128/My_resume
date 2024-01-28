@@ -114,6 +114,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+resume_env
 env/
 venv/
 ENV/
