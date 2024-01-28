@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 
+
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
@@ -16,9 +17,11 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- Experienced Educator, Researcher and Administrator with almost twenty years of experience in data-oriented environment and a passion for delivering insights based on predictive modeling. 
-- Strong verbal and written communication skills as demonstrated by extensive participation as invited speaker at `10` conferences as well as publishing 149 research articles.
-- Strong track record in scholarly research with H-index of `32` and total citation of 3200+.
+- Data scientist with expertise in machine learning and deep learning.
+- Possessing a master's degree in computer science and a bachelor's degree in statistics.
+- More than 12 years of experience in the banking industry. 
+- Excellent grade in organizational assessment for 4 years. 
+- Eager and motivated about leveraging data to make informed business decisions.
 ''')
 
 #####################
