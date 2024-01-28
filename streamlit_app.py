@@ -13,7 +13,7 @@ st.write('''
 ''')
 
 image = Image.open('Myprofile.jpg')
-st.image(image, width=150)
+st.image(image, width=200)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
