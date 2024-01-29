@@ -7,12 +7,12 @@ with open("style.css") as f:
 
 
 st.write('# **Hossein KianAra, M.Sc.**')
-st.write('##### *Resume* ')
+st.write('#### ***Data Scientis*** ')
 
 image = Image.open('Myprofile.jpg')
 st.image(image, width=200)
 
-st.markdown('## SUMMARY', unsafe_allow_html=True)
+st.markdown('### :blue[*SUMMARY*]', unsafe_allow_html=True)
 st.info('''
 - Data scientist with expertise in machine learning and deep learning.
 - Possessing a master's degree in computer science and a bachelor's degree in statistics.
@@ -85,7 +85,7 @@ def txt4(a, b, c):
     st.markdown(c)
 
 
-st.markdown('''## EDUCATION''')
+st.markdown(''' ### :blue_book: :blue[*EDUCATION*]''')
 txt('**Master of degree in Computer Science.**, *Shahed, Tehran University*, IRAN', '2021-2023')
 st.markdown('''
 - GPA: `3.63`
@@ -95,11 +95,11 @@ st.markdown('''
 ''')
 txt('**Bachelors of Science.** (Statistics), *Azad University of Arak*, IRAN','2005-2009')
 st.markdown('''
-- Research thesis entitled `KAPPA coefficient in medical research`.
 - GPA: `3.1`
+- Research thesis entitled `KAPPA coefficient in medical research`.
 ''')
 
-st.markdown('''## WORK EXPERIENCE''')
+st.markdown('''### :gem: :blue[*WORK EXPERIENCE*]''')
 txt('**Banking Digital Transformation** (Part-Time), Tehran, IRAN', 'Feb/2022-current')
 st.markdown('''
 - Participation in the "Digital Transformation of Maskan Bank" initiative, which aims to incorporate AI and data science to evaluate customers.
@@ -126,14 +126,14 @@ st.markdown('''
 ''')
 
 
-st.markdown('''## ACHIEVEMENTS''')
+st.markdown('''### :first_place_medal: :blue[*ACHIEVEMENTS*]''')
 st.markdown('''
 - Ranked first in the master's program at the Faculty of Computer Sciences.
 - Secured first place in the youth category programming competition in Markazi province and ranked fourth nationally in Iran.
 - Published two publications in partnership with the Dr. Gharib Hospital's Children's Nuclear Medicine Development Centre in Tehran.
 ''')
 
-st.markdown('''## SKILLS''')
+st.markdown('''### :hammer_and_wrench: :blue[*SKILLS*]''')
 txt3('Programming', '`Python`')
 txt3('Data Preparation/Analysis', '`SQL`, `Excel`, `Pandas`, `Numpy`')
 txt3('Data Visualization', '`Power BI`,`Matplotlib`, `Seaborn`, `Bokeh`')
@@ -142,7 +142,7 @@ txt3('Machine Learning', '`Scikit-learn`, `Pycaret`')
 txt3('Deep Learning', '`TensorFlow`')
 txt3('Model deployment', '`Streamlit`')
 
-st.markdown('''## SOCIAL MEDIA''')
+st.markdown('''### :satellite: :blue[*SOCIAL MEDIA*]''')
 txt2('Email:', 'sabbah128@gmail.com')
 txt2('LinkedIn:', 'https://www.linkedin.com/in/hossein-kian-ara/')
 txt2('GitHub:', 'https://github.com/sabbah128/')
