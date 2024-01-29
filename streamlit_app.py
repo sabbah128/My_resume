@@ -85,7 +85,7 @@ def txt4(a, b, c):
     st.markdown(c)
 
 
-st.markdown(''' ### :blue_book: :blue[*EDUCATION*]''')
+st.markdown(''' ### :blue[*EDUCATION*]''')
 txt('**Master of degree in Computer Science.**, *Shahed, Tehran University*, IRAN', '2021-2023')
 st.markdown('''
 - GPA: `3.63`
@@ -99,7 +99,7 @@ st.markdown('''
 - Research thesis entitled `KAPPA coefficient in medical research`.
 ''')
 
-st.markdown('''### :gem: :blue[*WORK EXPERIENCE*]''')
+st.markdown('''### :blue[*WORK EXPERIENCE*]''')
 txt('**Banking Digital Transformation** (Part-Time), Tehran, IRAN', 'Feb/2022-current')
 st.markdown('''
 - Participation in the "Digital Transformation of Maskan Bank" initiative, which aims to incorporate AI and data science to evaluate customers.
@@ -126,14 +126,14 @@ st.markdown('''
 ''')
 
 
-st.markdown('''### :first_place_medal: :blue[*ACHIEVEMENTS*]''')
+st.markdown('''### :blue[*ACHIEVEMENTS*]''')
 st.markdown('''
 - Ranked first in the master's program at the Faculty of Computer Sciences.
 - Secured first place in the youth category programming competition in Markazi province and ranked fourth nationally in Iran.
 - Published two publications in partnership with the Dr. Gharib Hospital's Children's Nuclear Medicine Development Centre in Tehran.
 ''')
 
-st.markdown('''### :hammer_and_wrench: :blue[*SKILLS*]''')
+st.markdown('''### :blue[*SKILLS*]''')
 txt3('Programming', '`Python`')
 txt3('Data Preparation/Analysis', '`SQL`, `Excel`, `Pandas`, `Numpy`')
 txt3('Data Visualization', '`Power BI`,`Matplotlib`, `Seaborn`, `Bokeh`')
@@ -142,7 +142,7 @@ txt3('Machine Learning', '`Scikit-learn`, `Pycaret`')
 txt3('Deep Learning', '`TensorFlow`')
 txt3('Model deployment', '`Streamlit`')
 
-st.markdown('''### :satellite: :blue[*SOCIAL MEDIA*]''')
+st.markdown('''### :blue[*SOCIAL MEDIA*]''')
 txt2('Email:', 'sabbah128@gmail.com')
 txt2('LinkedIn:', 'https://www.linkedin.com/in/hossein-kian-ara/')
 txt2('GitHub:', 'https://github.com/sabbah128/')
