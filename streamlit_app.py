@@ -27,15 +27,15 @@ st.info('''
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
 st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #185455;">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #326e64;">
   <a class="navbar-brand" href="https://www.linkedin.com/in/hossein-kian-ara/" target="_blank">Hossein KianAra</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#education">Education</a>
@@ -142,15 +142,24 @@ txt3('Machine Learning', '`Scikit-learn`, `Pycaret`')
 txt3('Deep Learning', '`TensorFlow`')
 txt3('Model deployment', '`Streamlit`')
 
+st.markdown('''## SOCIAL MEDIA''')
+txt2('Email:', 'sabbah128@gmail.com')
+txt2('LinkedIn:', 'https://www.linkedin.com/in/hossein-kian-ara/')
+txt2('GitHub:', 'https://github.com/sabbah128/')
+txt2('Telegram:', '@sabbah128')
 
-st.markdown('''## Social Media''')
-txt2('LinkedIn', 'https://www.linkedin.com/in/chanin-nantasenamat')
-txt2('Twitter', 'https://twitter.com/thedataprof')
-txt2('GitHub', 'https://github.com/chaninn/')
-txt2('', 'https://github.com/chaninlab/')
-txt2('', 'https://github.com/dataprofessor')
-txt2('ORCID', 'http://orcid.org/0000-0003-1040-663X')
-txt2('Scopus', 'http://www.scopus.com/authid/detail.url?authorId=12039071300')
-txt2('ResearcherID', 'http://www.researcherid.com/rid/F-1021-2010')
-txt2('ResearchGate', 'https://www.researchgate.net/profile/Chanin_Nantasenamat')
-txt2('Publons', 'https://publons.com/a/303133/')
+
+st.markdown(''' **RELEVANT COURSES** ''')
+st.markdown('''
+- Advance Algorithms,
+- Advance AI,
+- Data Mining (concept and techniques),
+- Introduction to Machine Learning,
+- Computing Data Mining,
+- Data Visualization,
+- Big Data.
+''')
+
+
+
+
