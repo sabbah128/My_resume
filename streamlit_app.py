@@ -10,7 +10,9 @@ st.write('# **Hossein KianAra, M.Sc.**')
 st.write('#### ***Data Scientis*** ')
 
 image = Image.open('Myprofile.jpg')
-st.image(image, width=200)
+st.image(image, width=150)
+
+
 
 st.markdown('### :blue[*SUMMARY*]', unsafe_allow_html=True)
 st.info('''
