@@ -18,6 +18,7 @@ st.markdown('### :blue[*SUMMARY*]', unsafe_allow_html=True)
 st.info('''
 - Data scientist with expertise in machine learning and deep learning.
 - Possessing a master's degree in computer science and a bachelor's degree in statistics.
+- Experience in data analysis and visualization with Power BI and Python.
 - More than 12 years of experience in the banking industry. 
 - Excellent grade in organizational assessment for 4 years. 
 - Eager and motivated about leveraging data to make informed business decisions.
