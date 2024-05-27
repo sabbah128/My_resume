@@ -6,7 +6,7 @@ with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 
-st.write('# **Hossein KianAra, M.Sc.**')
+st.write('# **Hossein Kian Ara, M.Sc.**')
 st.write('#### ***Data Scientis*** ')
 
 image = Image.open('Myprofile.jpg')
